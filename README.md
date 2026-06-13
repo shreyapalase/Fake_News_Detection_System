@@ -106,7 +106,7 @@ The dataset is very small and does not represent real-world performance.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Name:** Shreya Sunil Palase 
 

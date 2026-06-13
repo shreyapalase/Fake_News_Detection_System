@@ -1,0 +1,36 @@
+import pandas as pd
+
+data = {
+    "text": [
+        "Government launches free healthcare scheme for citizens",
+        "Scientists discover water on Mars using rover data",
+        "Stock market rises due to strong economic growth",
+        "Aliens land secretly and meet government officials",
+        "Drinking hot water cures all diseases instantly",
+        "New education policy improves literacy rate in India",
+        "Secret chip controls human thoughts worldwide",
+        "Doctors confirm exercise improves mental health",
+        "Moon is a hologram created by NASA",
+        "India launches new satellite successfully"
+    ],
+    "label": [
+        "REAL",
+        "REAL",
+        "REAL",
+        "FAKE",
+        "FAKE",
+        "REAL",
+        "FAKE",
+        "REAL",
+        "FAKE",
+        "REAL"
+    ]
+}
+
+df = pd.DataFrame(data)
+
+# overwrite clean file
+df.to_csv("news.csv", index=False)
+
+print("Clean news.csv created successfully!")
+df

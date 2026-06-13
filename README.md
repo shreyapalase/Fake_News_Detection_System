@@ -48,7 +48,7 @@ Fake-News-Detection/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. A dataset of labeled news (REAL / FAKE) is created
 2. Text data is converted into numerical vectors using TF-IDF
